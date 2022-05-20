@@ -6,3 +6,4 @@ The motivation behind the approach is to develop a simulated environment for sep
 
 The current implementation is minimal and uses a GRU based RNN to parameterize the means, covariance matrices, and components of a Mixture of Gaussians. Then the model will output an instance of Pytorch MixtureSameFamily.
 Learning can be done by evaluating and minimizing the log likelihood.
+
