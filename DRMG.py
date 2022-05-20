@@ -21,8 +21,7 @@ device='cuda' if torch.cuda.is_available() else 'cpu'
 
 
 class DRMG(nn.Module):
-  """ Encodes x_{:t} 
-      The job of the Encoder is to remember the past observations.
+  """ 
      
   """
 
